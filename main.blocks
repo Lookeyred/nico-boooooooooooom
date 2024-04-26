@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="grpIS`_Y5;#%6/lC;eim">Running</variable></variables><block type="device_forever" id="pN(ZUhf?Cj#(]=uIe^ix" x="204" y="-153"><statement name="HANDLER"><block type="music_playable_play" id="gt3n,HIOY]Y/GK*G@E|}"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="$nYtr*L+g2sR#V6!z+=]"><value name="melody"><shadow type="melody_editor" id=")w.|go$rYI0[|-M{7=@g"><field name="melody">"B A G A G F A C5 "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="$;Fyzmu[^Qoy_^dg}N/+"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value></block></statement></block><block type="device_forever" id="rkzNk+s.gfCNX/oB)c5N" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="MlZktXiUn#?=g47{K`.u"><field name="LEDS">`
+        . . . # # 
+        . . # # # 
+        . # # # . 
+        # # # # . 
+        # # # # .
+        `</field><next><block type="device_show_leds" id="-COJRT0}bQ=Ddzlf(k%`"><field name="LEDS">`
+        # . . . . 
+        # # # # # 
+        . # # # # 
+        . . # # # 
+        . . . # #
+        `</field></block></next></block></statement></block><block type="device_gesture_event" id="qyCBIh,g|UTf*[1HKl*n" x="288" y="26"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_change" id="uC+$JI=[jo)Vc.%87*+N"><field name="VAR" id="grpIS`_Y5;#%6/lC;eim">Running</field><value name="VALUE"><shadow type="math_number" id="Anq[rzXN:%F@q0RR6yDL"><field name="NUM">1</field></shadow></value></block></statement></block><block type="pxt-on-start" id="h+aBF+EYtB^R[I!%)Ypk" x="300" y="183"><statement name="HANDLER"><block type="variables_set" id="dRawgi@rVDa({wtw?8gb"><field name="VAR" id="grpIS`_Y5;#%6/lC;eim">Running</field><value name="VALUE"><shadow type="math_number" id="N9G#e*{w]9Jjfx.d/Usv"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
